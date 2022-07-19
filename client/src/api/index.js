@@ -13,7 +13,7 @@ const url = "http://localhost:5050/posts";      //this link simply returns all t
 
 export const fetchPosts = () => axios.get(url);
 
-export const createPost = async (newPost) => {
+export const createPost = (newPost) => {
     // console.log(`api ${Object.keys(newPost)} , ${Object.values(newPost)}`);
     // const n = {
     //     title : "hi",
@@ -33,3 +33,9 @@ export const createPost = async (newPost) => {
     //       console.log(response.data);
     //     });
 }
+
+export const updatePost = (id,updatedPost) => axios.patch(`${url}/${id}`,updatedPost);
+
+export const deletePost = (id) => axios.delete(`${url}/${id}`);
+
+export const likePost = (id) => axios.patch(`${url}/${id}/likePost`);

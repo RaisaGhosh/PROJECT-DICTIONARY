@@ -14,6 +14,7 @@ export default makeStyles({
     height: '100%',
   },
   card: {
+    fontFamily : '-apple-system',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
@@ -43,6 +44,8 @@ export default makeStyles({
   },
   title: {
     padding: '0 16px',
+    fontStyle : "italic",
+    textDecoration : "underline"
   },
   cardActions: {
     padding: '0 16px 8px 16px',

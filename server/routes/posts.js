@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 
 // import { getPosts, getPost, createPost, updatePost, likePost, deletePost } from '../controllers/posts.js';
-import {getPosts,createPost} from '../controllers/posts.js';
+import {getPosts,createPost,updatePost,deletePost,likePost} from '../controllers/posts.js';
 
 const router = express.Router();
 
@@ -13,8 +13,9 @@ const router = express.Router();
 
 router.get("/",getPosts);
 router.post("/",createPost);
-// router.patch("/",updatePost);
-// router.delete("/",deletePost);
+router.patch("/:id",updatePost);
+router.delete("/:id",deletePost);
+router.patch("/:id/likePost",likePost);
 
 
 export default router;
