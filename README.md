@@ -7,7 +7,8 @@
 
 #WEB
 
-<img width="1440" alt="Screenshot 2022-07-19 at 10 19 08 PM" src="https://user-images.githubusercontent.com/71429098/179826653-4adea19c-c317-4d6a-85db-5b5d4d86fa19.png">
+<img width="1436" alt="Screenshot 2022-07-20 at 12 22 38 AM" src="https://user-images.githubusercontent.com/71429098/179826987-a286c8c6-3777-499d-936e-0aad18f1ae66.png">
+
 
 #MOBILE
 
