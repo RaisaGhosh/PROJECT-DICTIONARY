@@ -4,6 +4,12 @@
 
 #current build can be found at https://project-dictionary.netlify.app/
 
+HOW TO USE?
+1. CREATE A POST : Fill in the form at the start of the page and click on Submit button. To clear out the entire form at one go, you can also click on the Clear button.
+2. UPDATE A POST : Click on the 3 dots on the top right corder of each post and that will automatically fill in the form with the current information for that particular post. Now you can make necessary changes and click on the Submit button, thus updating the post.
+3. LIKE A POST : Simply click on the thumbs up icon on the bottom left corner of each post.
+4. DELETE A POST : Click on the trash bin icon on the bottom right corner of each post. (Will be adding JWT authentication and pagination soon!)
+
 
 #WEB
 
