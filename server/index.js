@@ -7,6 +7,8 @@ import dotenv from "dotenv";
 
 import postRoutes from './routes/posts.js';
 
+mongoose.set("strictQuery", false);
+
 const app = express();
 
 dotenv.config();
