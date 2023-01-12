@@ -9,7 +9,9 @@ const config = {
     }
   };
   
-const url = "https://project-dictionary.herokuapp.com/posts";      //this link simply returns all the posts we have in db
+// const url = "https://project-dictionary.herokuapp.com/posts";      //this link simply returns all the posts we have in db
+
+const url = "http://localhost:5050/posts"; 
 
 export const fetchPosts = () => axios.get(url);
 
