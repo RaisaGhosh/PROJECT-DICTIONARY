@@ -5,8 +5,9 @@
 #current build can be found at https://project-dictionary.netlify.app/  <br />
 (Note : The data from the backend need some time to load. Please referesh multiple times if posts are not showing up.)
 <br />
+<br />
 FRONTEND HOSTED ON : NETLIFY  <br />
-BACKEND HOSTED ON : RENDER
+BACKEND HOSTED ON : RENDER  (PREVIOUSLY, HEROKU)
 <br />
 <br />
 <br />
