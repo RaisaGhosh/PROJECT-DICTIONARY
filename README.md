@@ -3,7 +3,7 @@
 #currently building
 
 #current build can be found at https://project-dictionary.netlify.app/  <br />
-(Note : The data from the backend need some time to load. Please referesh multiple times if posts are not showing up.)
+(Note : The data from the backend needs some time to load. Please referesh multiple times if posts are not showing up.)
 <br />
 <br />
 FRONTEND HOSTED ON : NETLIFY  <br />
